@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Awesome Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to Your Awesome Website</h1>
+        <p>This is a place where creativity comes to life!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We're a passionate team dedicated to delivering amazing experiences.</p>
+    </section>
+       <section id="social-media">
+        <h2>Connect with Us</h2>
+        <p>Stay updated with our latest content:</p>
+        <div class="social-links">
+            <a href="https://www.youtube.com/your-channel" target="_blank">
+                <img src="youtube.png" alt="YouTube">
+            </a>
+            <a href="https://www.facebook.com/your-page" target="_blank">
+                <img src="facebook.png" alt="Facebook" class="1">
+            </a>
+            <a href="https://www.facebook.com/your-page" target="_blank">
+                <img src="twitter.png" alt="Twitter">
+            </a>
+            <!-- Add more social media links here -->
+        </div>
+    </section>
+   <!-- <section id="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="project">	
+            <img src="1.jpg" alt="Project 1">
+            <p>Project 1 description goes here.</p>
+        </div>
+        <div class="project">
+            <img src="2.jpg" alt="Project 2">
+            <p>Project 2 description goes here.</p>
+        </div>
+    </section>
+-->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to contact us:</p>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
